@@ -41,7 +41,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             with(NotificationManagerCompat.from(this)) {
                 notify(0, notificationBuilder.build())
             }
-
         }
     }
 }
